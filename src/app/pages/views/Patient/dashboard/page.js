@@ -1,13 +1,13 @@
 import DashboardLayout from 'Components/DashboardLayout'; // adjust if needed
 
-function DashboardContent() {
+function ClientDashboardContent() {
   return <h1>Welcome to MediContact!</h1>;
 }
 
-export default function Dashboard() {
+export default function ClientDashboard() {
   return (
     <DashboardLayout>
-      <DashboardContent />
+      <ClientDashboardContent />
     </DashboardLayout>
   );
 }
